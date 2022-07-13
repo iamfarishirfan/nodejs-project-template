@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "fmt": "npx prettier --check --write .",
+    "lint": "npx eslint .",
     "start": "node ."
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/iamfarishirfan/nodejs-project-template#readme",
   "devDependencies": {
+    "eslint": "^8.19.0",
     "prettier": "^2.7.1"
   }
 }
